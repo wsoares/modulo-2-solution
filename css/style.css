@@ -1,3 +1,51 @@
+*{
+	box-sizing: border-box;
+}
+h1, h2, section{
+	font-family: arial, Times, serif;
+}
+
+h1, h2{
+	text-align: center;
+	padding: 5px;
+}
+
+h1{
+	font-size: 175%;
+}
+
+h2{
+	font-size: 125%;
+	margin: 0px;
+	margin-bottom: 5px;
+	padding: 1px 5px;
+}
+
+section, h2{
+	border: 1px solid #000000;
+}
+
+section > h2{
+
+}
+
+section{
+	padding: 20px;
+	background-color: #CDC2C2;
+	margin: 20px 10px 20px 10px;
+}
+
+#chicken{
+	background-color: #E1C97A;
+}
+#beef{
+	background-color: #E37B7B;
+}
+#sushi{
+	background-color: #CEE288;
+}
+
+/*Responsive design*/
 /*desktop version*/
 @media (min-width: 992px){
 }
