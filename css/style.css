@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 h1, h2, section{
-	font-family: arial, Times, serif;
+	font-family: helvetica, arial, serif;
 }
 
 h1, h2{
@@ -26,13 +26,19 @@ section, h2{
 }
 
 section > h2{
-
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
 
 section{
-	padding: 20px;
+	position:relative;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px;
 	background-color: #CDC2C2;
-	margin: 20px 10px 20px 10px;
+	
 }
 
 #chicken{
@@ -45,15 +51,31 @@ section{
 	background-color: #CEE288;
 }
 
+.row{
+	width: 100%;
+}
+
 /*Responsive design*/
 /*desktop version*/
 @media (min-width: 992px){
+	.desktop{		
+		width: 33.33%;
+	}
 }
 
 /*tablet version*/
 @media (min-width: 768px) and (max-width: 991px){
+	.tablet-1{
+		width:100%;
+	}
+	.tablet-2{
+		width: 50%;
+	}
 }
 
 /*mobile view*/
 @media (max-width: 767px){
+	.mobile{
+		width: 100;
+	}
 }
